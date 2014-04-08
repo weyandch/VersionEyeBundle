@@ -39,3 +39,10 @@ A Word Of Caution
 
 Although this plugin caches all requests to the VersionEye servers, it may slow down your project a bit (dev only, of course).
 In my project, average response time is up to 400ms slower even when reading from the cache, YMMV.
+
+
+Create separate Environment
+---------------------------
+
+To avoid performance penalties when using the extension in the dev environment, you can easily create a special one dedicated to
+check for outdated packages.
